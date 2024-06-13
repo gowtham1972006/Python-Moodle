@@ -1,7 +1,0 @@
-a=input()
-b=input()
-c=int(a)
-d=float(b)
-d=round(d,1)
-print(a,type(c),sep=",")
-print(d,type(d),sep=",")
