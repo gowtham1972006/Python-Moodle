@@ -56,6 +56,7 @@ After insertion array is:
 120
 
 
+
 n=10
 L=[]
 while(n):
