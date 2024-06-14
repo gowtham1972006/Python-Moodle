@@ -7,6 +7,7 @@ B&A
 Explanation: As we ignore '&' and
 As we ignore '&' and then reverse, so answer is "B&A".
 
+ 
 s=input()
 L=[]
 for k in s:
