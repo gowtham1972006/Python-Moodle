@@ -56,22 +56,22 @@ After insertion array is:
 120
 
 
-sorted_array = []
-print("Enter elements of the sorted array:")
-for _ in range(10):
-    num = int(input())
-    sorted_array.append(num)
-element_to_insert = int(input("ITEM to be inserted: "))
-if len(sorted_array) >= 10:
-    print("Array is full, can't insert element.")
-else:
-    i = len(sorted_array) - 1
-    while i >= 0 and sorted_array[i] > element_to_insert:
-        sorted_array[i + 1] = sorted_array[i]
-        i -= 1
-    
-    sorted_array[i + 1] = element_to_insert
-
-print("After insertion array is:")
-for num in sorted_array:
-    print(num)
+n=10
+L=[]
+while(n):
+    L.append(int(input()))
+    n-=1
+sor_L=[]
+k=int(input())
+flag=False
+for x in range(0,len(L)):
+    if(k<L[x] and not(flag)):
+        flag=True
+        sor_L.append(k)
+        sor_L.append(L[x])
+    else:
+        sor_L.append(L[x])
+print(f'ITEM to be inserted:{k}')
+print(f'After insertion array is:')
+for x in sor_L:
+    print(x)
