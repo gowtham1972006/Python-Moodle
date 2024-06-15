@@ -7,6 +7,7 @@ Sample Output:
 10,<class 'int'>
 10.9,<class 'float'>
 
+  
 a=input()
 b=input()
 c=int(a)
